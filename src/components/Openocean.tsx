@@ -41,7 +41,6 @@ export const Openocean = () => {
   const { user, login, logout } = usePrivy();
   const { wallets } = useWallets();
   const { setActiveWallet } = useSetActiveWallet();
-  console.log("wallets", wallets);
 
   const targetWallet = useMemo(() => {
     return wallets?.find(

@@ -1,10 +1,10 @@
-import "./App.css";
+import "../App.css";
 import { Openocean } from "./Openocean";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { PrivyProvider } from "@privy-io/react-auth";
 import { base } from "viem/chains";
 import { WagmiProvider } from "wagmi";
-import { config } from "./web3";
+import { config } from "../web3";
 
 export const queryClient = new QueryClient();
 
