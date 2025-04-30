@@ -13,7 +13,9 @@
     "@openocean.finance/widget": "^1.0.4",
     "@privy-io/react-auth": "2.10.0",
     "@privy-io/wagmi": "1.0.3",
+    "@solana/spl-token": "^0.4.13",
     "@solana/wallet-adapter-react": "^0.15.38",
+    "@solana/web3.js": "^1.98.0",
     "@tanstack/react-query": "^5.74.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -25,15 +27,22 @@
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
+    "assert": "^2.1.0",
+    "autoprefixer": "^10.4.19",
+    "buffer": "^6.0.3",
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
     "husky": "^9.1.7",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
     "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.26.1",
+    "url": "^0.11.3",
     "vite": "^6.3.1",
-    "autoprefixer": "^10.4.19"
+    "vite-plugin-commonjs": "^0.10.4",
+    "vite-plugin-node-polyfills": "^0.23.0"
   }
 }
